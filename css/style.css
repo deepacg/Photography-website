@@ -1,0 +1,65 @@
+.bg-black {
+    background-color: black;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.header a{
+    font-size: 18px;
+}
+
+.about p{
+    font-size: 20px; 
+    line-height: 28px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.home-slider h2{
+    font-size: 36px;
+}
+
+.home-slider button{
+    font-size: 22px;
+}
+
+.contact{
+    background-image: url('../images/Contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.address-box {
+    font-size: 20px;
+    /* line-height: 22px; */
+}
+
+.contact-box .form-control{
+    height: 50px;
+}
+
+.contact-box textarea.form-control{
+    height: 150px;
+}
+
+.footer {
+    
+    height: 70px;
+}
+
+@media(max-width: 991px){
+    #focuzSlider .carousel-caption h2 {
+        font-size: 33px;
+    }
+}
+
+@media(max-width: 767px){
+    .header .navbar-brand img {
+        width: 200px;
+    }
+}
+
